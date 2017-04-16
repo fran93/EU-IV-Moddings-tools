@@ -44,7 +44,7 @@ public class Music {
     }
     
     private void generateAsset(String format, String ext){
-        String output = "music = { name =\""+format+"\"  file =\""+ext+"\"";
+        String output = "music = { name =\""+format+"\"  file =\""+ext+"\"}";
         FileUtils.appendText(new File(directory+ASSET), output);
     }
     
